@@ -1,0 +1,72 @@
+* {
+    border: 1px solid red;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    padding: 10px;
+    text-align: left;
+    background-color: lightgray;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+}
+
+.header-text{
+    font-size: 32px;
+}
+
+.sections{
+    flex-grow: 0.5;
+    padding: 20px;
+    background-color: ghostwhite;
+}
+.section-content{
+    flex-grow: 2;
+    background-color: whitesmoke;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+
+.project-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.project-btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.add-btn {
+    border: 1px solid grey;
+    background-color: lightgreen;
+}
+.cancel-btn{
+    border: 1px solid grey;
+    background-color: lightcoral;
+}
+
+.project-list{
+    display: flex;
+    flex-direction: column;
+}
